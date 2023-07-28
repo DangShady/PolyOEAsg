@@ -29,6 +29,7 @@ public class LikeVideoServlet extends HttpServlet {
 			return;
 		}
 		
+		//lấy giá trị các tham số đc truyền vào từ request
 		String page = request.getParameter("page");
 		String videoId = request.getParameter("videoId");
 	
@@ -44,6 +45,7 @@ public class LikeVideoServlet extends HttpServlet {
 			video.setVideoId(videoId);
 			favorite.setVideo(video);
 			
+			//thiết lập tt ngườu dùng và ngày vào favorite
 			String username = SessionUtils.getLoginedUsername(request);
 			User user = new User();
 			user.setUsername(username);

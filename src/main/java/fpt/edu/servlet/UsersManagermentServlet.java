@@ -152,6 +152,8 @@ public class UsersManagermentServlet extends HttpServlet {
 			BeanUtils.populate(user, request.getParameterMap());
 
 			UserDAO dao = new UserDAO();
+			
+			//truy vấn đến csdl
 			User oldUser = dao.findById(user.getUsername());
 
 			dao.update(user);

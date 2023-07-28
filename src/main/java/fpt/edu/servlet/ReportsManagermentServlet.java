@@ -63,7 +63,6 @@ public class ReportsManagermentServlet extends HttpServlet {
 		}
 	}
 	
-	
 	protected void reportFavoritesByVideos(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		try {

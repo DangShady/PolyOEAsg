@@ -5,8 +5,6 @@
 
 <div class="col-7">
 	<div class="card text-center mt-3">
-
-		
 			<div class="card-header">
 				<iframe width="800" height="600"
 					src="${videos.description }"
@@ -14,7 +12,7 @@
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen></iframe>
 			</div>
-			<div class="card-body">
+			<div class="card-body"> 
 
 				<div class="row p-2">
 					<b>${videos.title }</b>

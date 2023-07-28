@@ -46,6 +46,7 @@ public class ShareVideoServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		try {
+			//lấy giá  trị các tham số được truyền vào 
 			String emailAddress = request.getParameter("email");
 			String videoId = request.getParameter("videoId");
 
@@ -54,8 +55,8 @@ public class ShareVideoServlet extends HttpServlet {
 
 			} else {
 				Email email = new Email();
-				email.setFrom("truongpvpd05497@fpt.edu.vn");
-				email.setFromPassword("10042001");
+				email.setFrom("dangnhpd06048@fpt.edu.vn");
+				email.setFromPassword("@dang12345");
 				email.setTo(emailAddress);
 				email.setSubject("Share Favorite Video");
 
@@ -70,6 +71,7 @@ public class ShareVideoServlet extends HttpServlet {
 				email.setContent(sb.toString());
 				EmailUtils.send(email);
 
+				
 				ShareDAO dao = new ShareDAO();
 				Share share = new Share();
 				share.setEmails(emailAddress);

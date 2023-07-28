@@ -102,6 +102,7 @@ public class VideoManagermentServlet extends HttpServlet {
 		Video video = new Video();
 
 		try {
+			//đổ dữ liệu từ request vào video
 			BeanUtils.populate(video, request.getParameterMap());
 
 			VideoDAO dao = new VideoDAO();

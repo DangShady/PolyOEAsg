@@ -37,8 +37,6 @@ public class HomeServlet extends HttpServlet {
 			}
 			int index = Integer.parseInt(indexPage);
 			
-			
-			
 			long count = dao.countVideo();
 			
 			long endPage = count/8;
@@ -63,7 +61,6 @@ public class HomeServlet extends HttpServlet {
 			throws ServletException, IOException {
 
 	}
-
 	protected void fillVideoDetail(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		try {

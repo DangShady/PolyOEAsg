@@ -18,7 +18,6 @@
 					</div>
 					<div class="card-body">
 
-
 						<b>${item.title }</b>
 
 					</div>

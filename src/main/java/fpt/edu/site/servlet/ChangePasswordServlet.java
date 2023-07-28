@@ -21,6 +21,8 @@ public class ChangePasswordServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		
+		//lấy tên người dùng đăng nhập từ request
 		String username = SessionUtils.getLoginedUsername(request);
 		
 		request.setAttribute("name",username);

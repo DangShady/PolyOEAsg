@@ -35,9 +35,11 @@
 			</div>
 			<div class="col-3 text-right">
 				<div class="mb-3 mr-5">
-					<a href="https://www.facebook.com/" class="mr-3"><i class="fab fa-facebook-f"></i></a>
-					<a href="https://www.google.com/" class="mr-3"><i class="fa-brands fa-google"></i></a>
-					<a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+					<a href="https://www.facebook.com/" class="mr-3"><i
+						class="fab fa-facebook-f"></i></a> <a href="https://www.google.com/"
+						class="mr-3"><i class="fa-brands fa-google"></i></a> <a
+						href="https://www.youtube.com/"><i
+						class="fa-brands fa-youtube"></i></a>
 				</div>
 			</div>
 		</header>
@@ -103,9 +105,8 @@
 
 					<ul class="navbar-nav mr-20 mt-2 mt-lg-0 float-right">
 						<c:if test="${isLogin }">
-							<li class="nav-item"><a class="nav-link"
-								style="color: blue"><i class="fa fa-eye"
-									aria-hidden="true"></i> Welcome ${name}</a></li>
+							<li class="nav-item"><a class="nav-link" style="color: blue"><i
+									class="fa fa-eye" aria-hidden="true"></i> Welcome ${name}</a></li>
 						</c:if>
 					</ul>
 				</div>
@@ -129,24 +130,26 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="/PolyOEAsg/images/nen7.jpg" class="d-block w-100" width="100%" height="100%" alt="...">
+						<img src="/PolyOEAsg/images/baner.jpg" class="d-block w-100"
+							width="100%" height="100%" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="/PolyOEAsg/images/nen2.jpg" class="d-block w-100" width="100%" height="100%"  alt="...">
+						<img src="/PolyOEAsg/images/nen1.jpg" class="d-block w-100"
+							width="100%" height="100%" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="/PolyOEAsg/images/nen3.jpg" class="d-block w-100" width="100%" height="100%"  alt="...">
+						<img src="/PolyOEAsg/images/baner1.jpg" class="d-block w-100"
+							width="100%" height="100%" alt="...">
 					</div>
 				</div>
 				<a class="carousel-control-prev" type="button"
-					data-target="#carouselExampleIndicators" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" type="button"
-					data-target="#carouselExampleIndicators" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
+					data-target="#carouselExampleIndicators" data-slide="prev"> <span
+					class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+					class="sr-only">Previous</span>
+				</a> <a class="carousel-control-next" type="button"
+					data-target="#carouselExampleIndicators" data-slide="next"> <span
+					class="carousel-control-next-icon" aria-hidden="true"></span> <span
+					class="sr-only">Next</span>
 				</a>
 			</div>
 		</div>
